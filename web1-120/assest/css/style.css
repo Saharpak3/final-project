@@ -42,8 +42,11 @@ header nav .menu-flex-background-fixed a {
     margin-left: 0;
 }
 header section.main-header {
-    padding: 40vh 40%;
+    padding: 40vh 28%;
     text-align: center;
+}
+.main-header h1 {
+    font-size: 3em;
 }
 header section.main-header .search-books-writers {
     width: 90%;
@@ -270,7 +273,7 @@ article.subscription, .contact-us {
     flex-direction: column;
     
 }
-#name, #email, #phone, #text {
+input, #text {
     width: 90%;
     margin-bottom: 15px;
     padding: 10px;
